@@ -1,411 +1,821 @@
 <!DOCTYPE html>
-<!-- ==============================
-    Project:        Metronic "Acecv" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-    Version:        1.0
-    Author:         KeenThemes
-    Primary use:    Corporate, Business Themes.
-    Email:          support@keenthemes.com
-    Follow:         http://www.twitter.com/keenthemes
-    Like:           http://www.facebook.com/keenthemes
-    Website:        http://www.keenthemes.com
-    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-================================== -->
-<html lang="en" class="no-js">
-    <!-- BEGIN HEAD -->
-    <head>
-        <meta charset="utf-8"/>
-        <title>Hello, I'm Cecil Hammett</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="description"/>
-        <meta content="" name="author"/>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-        <!-- GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<head>
 
-        <!-- PAGE LEVEL PLUGIN STYLES -->
-        <link href="css/animate.css" rel="stylesheet">
-        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+    <!--- Basic Page Needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>Ceevee - Free Responsive HTML5/CSS3 Template</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- THEME STYLES -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+    <!-- Mobile Specific Metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico"/>
-    </head>
-    <!-- END HEAD -->
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <!-- BODY -->
-    <body id="body" data-spy="scroll" data-target=".header">
+    <!-- Script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
 
-        <!--========== HEADER ==========-->
-        <header class="header navbar-fixed-top">
-            <!-- Navbar -->
-            <nav class="navbar" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="menu-container js_nav-item">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
-                        </button>
+    <!-- Favicons
+	================================================== -->
+    <link rel="shortcut icon" href="favicon.png">
 
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a class="logo-wrap" href="#body">
-                                <img class="logo-img" src="img/logo.png" alt="Asentus Logo">
+</head>
+
+<body>
+
+    <!-- Header
+   ================================================== -->
+    <header id="home">
+
+        <nav id="nav-wrap">
+
+            <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+            <ul id="nav" class="nav">
+                <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+                <li><a class="smoothscroll" href="#about">About</a></li>
+                <li><a class="smoothscroll" href="#resume">Tech</a></li>
+                <li><a class="smoothscroll" href="#about2">Fitness</a></li>
+                <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+                <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+                <li><a class="smoothscroll" href="#contact">Contact</a></li>
+            </ul> <!-- end #nav -->
+
+        </nav> <!-- end #nav-wrap -->
+
+        <div class="row banner">
+            <div class="banner-text">
+                <h1 class="responsive-headline">Hello, I'm Cecil.</h1>
+                <h3>I'm a 21-year-old <span>computer science student</span>, <span>gymnastics coach</span> and
+                    <span>yoga instructer</span> completing my fourth year of university. <a
+                        class="smoothscroll" href="#">Start scrolling</a>
+                    to learn more <a class="smoothscroll" href="#">about me</a>.</h3>
+                <hr />
+                <ul class="social">
+                    <li><a href="#https://www.facebook.com/cecil.hammett"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#https://www.linkedin.com/in/cecil-hammett-3b3513146/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#https://github.com/chammett7"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="scrolldown">
+            <a class="smoothscroll" href="#"><i class="icon-down-circle"></i></a>
+        </p>
+
+    </header> <!-- Header End -->
+
+
+    <!-- About Section
+   ================================================== -->
+    <section id="about">
+
+        <div class="row">
+
+            <div class="three columns">
+
+                <img class="profile-pic" src="images/headshot3.jpg" alt="" />
+
+            </div>
+
+            <div class="nine columns main-col">
+
+                <h2>About Me</h2>
+
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    Nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+                    qui ratione
+                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                    consectetur, adipisci velit,
+                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                    voluptatem.
+                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                </p>
+
+                <div class="row">
+
+                    <div class="columns contact-details">
+
+                        <h2>Contact Details</h2>
+                        <p class="address">
+                            <span>Cecil Hammett</span><br>
+                            <span>+61 413-634-807</span><br>
+                            <span>cecilhammettt4@gmail.com</span>
+                        </p>
+
+                    </div>
+
+                    <div class="columns download">
+                        <p>
+                            <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                        </p>
+                    </div>
+
+                </div> <!-- end row -->
+
+            </div> <!-- end .main-col -->
+
+        </div>
+
+    </section> <!-- About Section End-->
+
+
+    <!-- Tech Section
+   ================================================== -->
+    <section id="resume">
+
+        <!-- Education
+      ----------------------------------------------- -->
+        <div class="row education">
+
+            <div class="three columns header-col">
+                <h1><span>Education</span></h1>
+            </div>
+
+            <div class="nine columns main-col">
+
+                <div class="row item">
+
+                    <div class="twelve columns">
+
+                        <h3>Queensland University of Technology</h3>
+                        <p class="info">Bachelor of Information Technology (Computer Science)  <span>&bull;</span> <em class="date">July 2019 - July 2021</em>
+                        </p>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa.
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+                            quam felis,
+                            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu
+                            pede mollis pretium.
+                        </p>
+
+                    </div>
+
+                </div> <!-- item end -->
+
+                <div class="row item">
+
+                    <div class="twelve columns">
+
+                        <h3>Fordham University Lincoln Center</h3>
+                        <p class="info">Computer Science <span>&bull;</span> <em class="date">August 2017 - May 219</em></p>
+
+                        <p>
+                            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                            nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                            ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                        </p>
+
+                    </div>
+
+                </div> <!-- item end -->
+
+            </div> <!-- main-col end -->
+
+        </div> <!-- End Education -->
+
+        <!-- Skills
+      ----------------------------------------------- -->
+        <div class="row skill">
+
+            <div class="three columns header-col">
+                <h1><span>Software Skills</span></h1>
+            </div>
+
+            <div class="nine columns main-col">
+
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    Nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+                    qui ratione
+                    voluptatem sequi nesciunt.
+                </p>
+
+                <div class="bars">
+
+                    <ul class="skills">
+                        <li><span class="bar-expand java"></span><em>Java</em></li>
+                        <li><span class="bar-expand cpp"></span><em>C++</em></li>
+                        <li><span class="bar-expand cs"></span><em>C#</em></li>
+                        <li><span class="bar-expand c"></span><em>C</em></li>
+                        <li><span class="bar-expand css"></span><em>CSS</em></li>
+                        <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                        <li><span class="bar-expand javaScript"></span><em>JavaScript</em></li>
+                        <li><span class="bar-expand sql"></span><em>SQL/Databases</em></li>
+                    </ul>
+
+                </div><!-- end skill-bars -->
+
+            </div> <!-- main-col end -->
+
+        </div> <!-- End skills -->
+
+    </section> <!-- res Section End-->
+
+<!-- Yoga and coaching
+   ================================================== -->
+<section id="about2">
+
+    <div class="row">
+
+        <div class="three columns">
+
+            <img class="profile-pic" src="images/coaching.jpg" alt="" />
+
+        </div>
+
+        <div class="nine columns main-col">
+
+            <h2>Coaching</h2>
+
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                totam rem aperiam,
+                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                Nemo enim ipsam
+                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+                qui ratione
+                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                consectetur, adipisci velit,
+                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                voluptatem.
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+            </p>
+
+            <div class="row">
+
+                <div class="nine columns main-col">
+
+            <h2>Yoga</h2>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                totam rem aperiam,
+                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                Nemo enim ipsam
+                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+                qui ratione
+                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                consectetur, adipisci velit,
+                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                voluptatem.
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam
+            </p>
+
+                </div>
+
+                <div class="columns download">
+                    <p>
+                        <a href="#" class="button"><i class="fa fa-download"></i>Download Coaching Resume</a>
+                    </p>
+                </div>
+
+            </div> <!-- end row -->
+
+        </div> <!-- end .main-col -->
+
+    </div>
+
+</section> <!-- yoga and coaching Section End-->
+
+
+    <!-- Portfolio Section
+   ================================================== -->
+    <section id="portfolio">
+
+        <div class="row">
+
+            <div class="twelve columns collapsed">
+
+                <h1>Check Out Some of My Works.</h1>
+
+                <!-- portfolio-wrapper -->
+                <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-01" title="">
+                                <img alt="" src="images/portfolio/coffee.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Coffee</h5>
+                                        <p>Illustrration</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
                             </a>
-                        </div>
-                        <!-- End Logo -->
-                    </div>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse nav-collapse">
-                        <div class="menu-container">
-                            <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Projects</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
-                            </ul>
                         </div>
-                    </div>
-                    <!-- End Navbar Collapse -->
+                    </div> <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-02" title="">
+                                <img alt="" src="images/portfolio/console.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Console</h5>
+                                        <p>Web Development</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-03" title="">
+                                <img alt="" src="images/portfolio/judah.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Judah</h5>
+                                        <p>Webdesign</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-04" title="">
+                                <img alt="" src="images/portfolio/into-the-light.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Into The Light</h5>
+                                        <p>Photography</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-05" title="">
+                                <img alt="" src="images/portfolio/farmerboy.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Farmer Boy</h5>
+                                        <p>Branding</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-06" title="">
+                                <img alt="" src="images/portfolio/girl.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Girl</h5>
+                                        <p>Photography</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-07" title="">
+                                <img alt="" src="images/portfolio/origami.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Origami</h5>
+                                        <p>Illustrration</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-08" title="">
+                                <img alt="" src="images/portfolio/retrocam.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Retrocam</h5>
+                                        <p>Web Development</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div> <!-- item end -->
+
+                </div> <!-- portfolio-wrapper end -->
+
+            </div> <!-- twelve columns end -->
+
+
+            <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+            <div id="modal-01" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>Coffee Cup</h4>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+                        nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
                 </div>
-            </nav>
-            <!-- Navbar -->
-        </header>
-        <!--========== END HEADER ==========-->
 
-        <!--========== SLIDER ==========-->
-        <div class="promo-block">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 sm-margin-b-60">
-                        <div class="margin-b-30">
-                            <h1 class="promo-block-title">Cecil <br/> Hammett</h1>
-                            <p class="promo-block-text">Web &amp; Computer Science Student</p>
-                        </div>
-                        <ul class="list-inline">
-                            <li><a href="https://www.facebook.com/cecil.hammett" class="social-icons"><i class="icon-social-facebook"></i></a></li>
-                            <li><a href="https://github.com/chammett7" class="social-icons"><i class="icon-social-github"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/cecil-hammett-3b3513146/" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-01 End -->
+
+            <div id="modal-02" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>Console</h4>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+                        nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-02 End -->
+
+            <div id="modal-03" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>Judah</h4>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+                        nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-03 End -->
+
+            <div id="modal-04" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>Into the Light</h4>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+                        nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-04 End -->
+
+            <div id="modal-05" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>Farmer Boy</h4>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+                        nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-05 End -->
+
+            <div id="modal-06" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>Girl</h4>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+                        nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-06 End -->
+
+            <div id="modal-07" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>Origami</h4>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+                        nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-07 End -->
+
+            <div id="modal-08" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>Retrocam</h4>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+                        nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-01 End -->
+
+
+        </div> <!-- row End -->
+
+    </section> <!-- Portfolio Section End-->
+
+    <!-- Testimonials Section
+   ================================================== -->
+    <section id="testimonials">
+
+        <div class="text-container">
+
+            <div class="row">
+
+                <div class="two columns header-col">
+
+                    <h1><span>My Writings</span></h1>
+
+                </div>
+
+                <div class="ten columns flex-container">
+
+                    <div class="flexslider">
+
+                        <ul class="slides">
+
+                            <li>
+                                <blockquote>
+                                    <p>Your work is going to fill a large part of your life, and the only way to be
+                                        truly satisfied is
+                                        to do what you believe is great work. And the only way to do great work is to
+                                        love what you do.
+                                        If you haven't found it yet, keep looking. Don't settle. As with all matters of
+                                        the heart, you'll know when you find it.
+                                    </p>
+                                    <cite>Steve Jobs</cite>
+                                </blockquote>
+                            </li> <!-- slide ends -->
+
+                            <li>
+                                <blockquote>
+                                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                                        aliquet.
+                                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                                        sagittis sem
+                                        nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                                    </p>
+                                    <cite>Mr. Adobe</cite>
+                                </blockquote>
+                            </li> <!-- slide ends -->
+
+                            <li>
+                                <blockquote>
+                                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                                        aliquet.
+                                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                                        sagittis sem
+                                        nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                                    </p>
+                                    <cite>Mr. Adobe</cite>
+                                </blockquote>
+                            </li> <!-- slide ends -->
+
+                            <li>
+                                <blockquote>
+                                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                                        aliquet.
+                                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                                        sagittis sem
+                                        nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                                    </p>
+                                    <cite>Mr. Adobe</cite>
+                                </blockquote>
+                            </li> <!-- slide ends -->
+
                         </ul>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="promo-block-img-wrap">
-                            <img class="promo-block-img img-responsive" src="img/mockup/avatar-01.png" align="Avatar">
-                        </div>
-                    </div>
-                </div>
-                <!--// end row -->
+
+                    </div> <!-- div.flexslider ends -->
+
+                </div> <!-- div.flex-container ends -->
+
+            </div> <!-- row ends -->
+
+        </div> <!-- text-container ends -->
+
+    </section> <!-- Testimonials Section End-->
+
+
+    <!-- Contact Section
+   ================================================== -->
+    <section id="contact">
+
+        <div class="row section-head">
+
+            <div class="two columns header-col">
+
+                <h1><span>Get In Touch.</span></h1>
+
             </div>
+
+            <div class="ten columns">
+
+                <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                    laudantium, totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    Nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                </p>
+
+            </div>
+
         </div>
-        <!--========== SLIDER ==========-->
 
-        <!--========== PAGE LAYOUT ==========-->
-        <!-- About -->
-        <div id="about">
-            <div class="container content-lg">
-                <div class="row">
-                    <div class="col-sm-5 sm-margin-b-60">
-                        <img class="full-width img-responsive" src="img/500x700/01.jpg" alt="Image">
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="section-seperator margin-b-50">
-                            <div class="margin-b-50">
-                                <div class="margin-b-30">
-                                    <h2>About Me</h2>
-                                    <p>I'm Alisa Portman, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                                <a href="#" class="btn-theme btn-theme-md btn-default-bg text-uppercase">Download my CV</a>
-                            </div>
+        <div class="row">
+
+            <div class="eight columns">
+
+                <!-- form -->
+                <form action="" method="post" id="contactForm" name="contactForm">
+                    <fieldset>
+
+                        <div>
+                            <label for="contactName">Name <span class="required">*</span></label>
+                            <input type="text" value="" size="35" id="contactName" name="contactName">
                         </div>
 
-                        <h2>My Skills</h2>
-                        <!-- Progress Box -->
-                        <div class="progress-box">
-                            <h5>HTML5, CSS <span class="color-heading pull-right">75%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="75"></div>
-                            </div>
+                        <div>
+                            <label for="contactEmail">Email <span class="required">*</span></label>
+                            <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
                         </div>
-                        <div class="progress-box">
-                            <h5>Java <span class="color-heading pull-right">73%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="73"></div>
-                            </div>
+
+                        <div>
+                            <label for="contactSubject">Subject</label>
+                            <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
                         </div>
-                        <div class="progress-box">
-                            <h5>C# <span class="color-heading pull-right">62%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="62"></div>
-                            </div>
+
+                        <div>
+                            <label for="contactMessage">Message <span class="required">*</span></label>
+                            <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
                         </div>
-                        <div class="progress-box">
-                            <h5>C++ <span class="color-heading pull-right">55%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="55"></div>
-                            </div>
+
+                        <div>
+                            <button class="submit">Submit</button>
+                            <span id="image-loader">
+                                <img alt="" src="images/loader.gif">
+                            </span>
                         </div>
-                        <div class="progress-box">
-                            <h5>JavaScript <span class="color-heading pull-right">30%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="30"></div>
-                            </div>
-                        </div>
-                        <div class="progress-box">
-                            <h5>SQL <span class="color-heading pull-right">95%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="95"></div>
-                            </div>
-                        </div>
-                        <!-- End Progress Box -->
-                    </div>
+
+                    </fieldset>
+                </form> <!-- Form End -->
+
+                <!-- contact-warning -->
+                <div id="message-warning"> Error boy</div>
+                <!-- contact-success -->
+                <div id="message-success">
+                    <i class="fa fa-check"></i>Your message was sent, thank you!<br>
                 </div>
-                <!--// end row -->
+
             </div>
+
+
+            <aside class="four columns footer-widgets">
+
+                <div class="widget widget_contact">
+
+                    <h4>Email and Phone</h4>
+                    <p class="address">
+                        Cecil Hammett<br>
+                        cecilhammettt4@gmail.com <br>
+                        <span>+61 413 634 807</span>
+                    </p>
+
+                </div>
+
+            </aside>
+
         </div>
-        <!-- End About -->
 
-        <!-- Experience -->
-        <div id="experience">
-            <div class="bg-color-sky-light" data-auto-height="true">
-                <div class="container content-lg">
-                    <div class="row row-space-2 margin-b-4">
-                        <div class="col-md-3 col-sm-6 md-margin-b-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-mustache"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Illustrator</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 md-margin-b-4">
-                            <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
-                                <div class="service-element">
-                                    <i class="service-icon color-white icon-screen-tablet"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3 class="color-white">Graphic Design</h3>
-                                    <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 sm-margin-b-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-chemistry"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Photoshop</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-badge"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Sketch</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
+    </section> <!-- Contact Section End-->
+
+
+    <!-- footer
+   ================================================== -->
+    <footer>
+
+        <div class="row">
+
+            <div class="twelve columns">
+
+                <ul class="social-links">
+                    <li><a href="#https://www.facebook.com/cecil.hammett"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#https://www.linkedin.com/in/cecil-hammett-3b3513146/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#https://github.com/chammett7"><i class="fa fa-github"></i></a></li>
+                </ul>
+
             </div>
+
+            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a>
+            </div>
+
         </div>
-        <!-- End Experience -->
 
-        <!-- Work -->
-        <div id="work">
-            <div class="container content-lg">
-                <div class="row margin-b-40">
-                    <div class="col-sm-6">
-                        <h2>Latest Products</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-                    </div>
-                </div>
-                <!--// end row -->
+    </footer> <!-- Footer End-->
 
-                <div class="row">
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
-                            </div>
-                        </div>
-                        <h4><a href="#">Triangle Roof</a> <span class="text-uppercase margin-l-20">Management</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
+    <!-- Java Script
+   ================================================== -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">
-                            </div>
-                        </div>
-                        <h4><a href="#">Curved Corners</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/init.js"></script>
 
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img class="img-responsive" src="img/970x647/03.jpg" alt="Latest Products Image">
-                            </div>
-                        </div>
-                        <h4><a href="#">Bird On Green</a> <span class="text-uppercase margin-l-20">Design</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
-                </div>
-                <!--// end row -->
-            </div>
-        </div>
-        <!-- End Work -->
+</body>
 
-        <!-- Clients -->
-        <div class="bg-color-sky-light">
-            <div class="content-lg container">
-                <!-- Swiper Clients -->
-                <div class="swiper-slider swiper-clients">
-                    <!-- Swiper Wrapper -->
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
-                        </div>
-                    </div>
-                    <!-- End Swiper Wrapper -->
-                </div>
-                <!-- End Swiper Clients -->
-            </div>
-        </div>
-        <!-- End Clients -->
-
-        <!-- Promo Banner -->
-        <div class="promo-banner parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
-            <div class="container-sm content-lg">
-                <h2 class="promo-banner-title">Displaying the Result</h2>
-                <p class="promo-banner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-            </div>
-        </div>
-        <!-- End Promo Banner -->
-            
-        <!-- Contact -->
-        <div id="contact">
-            <div class="bg-color-sky-light">
-                <div class="container content-lg">
-                    <div class="row margin-b-40">
-                        <div class="col-sm-6">
-                           <h2>Contact Me</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-                        </div>
-                    </div>
-                    <!--// end row -->
-
-                    <div class="row">
-                        <div class="col-md-3 col-xs-6 md-margin-b-30">
-                            <h4>Location</h4>
-                            <a href="#">Brookyln, New York</a>
-                        </div>
-                        <div class="col-md-3 col-xs-6 md-margin-b-30">
-                            <h4>Phone</h4>
-                            <a href="#">+77 234 548 00 00</a>
-                        </div>
-                        <div class="col-md-3 col-xs-6">
-                            <h4>Email</h4>
-                            <a href="mailto:#">alex.teseira@gmail.com</a>
-                        </div>
-                        <div class="col-md-3 col-xs-6">
-                            <h4>Web</h4>
-                            <a href="#">alex.teseira.com</a>
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
-        </div>
-        <!-- End Contact -->
-        <!--========== END PAGE LAYOUT ==========-->
-
-        <!--========== FOOTER ==========-->
-        <footer class="footer">
-            <div class="content container">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo.png" alt="Acecv Logo">
-                    </div>
-                    <div class="col-xs-6 text-right sm-text-left">
-                        <p class="margin-b-0"><a class="fweight-700" href="http://keenthemes.com/preview/acecv/">Acecv</a> Theme Powered by: <a class="fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-        </footer>
-        <!--========== END FOOTER ==========-->
-
-        <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
-
-        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-        <!-- CORE PLUGINS -->
-        <script src="vendor/jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-
-        <!-- PAGE LEVEL PLUGINS -->
-        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
-        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
-        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
-
-        <!-- PAGE LEVEL SCRIPTS -->
-        <script src="js/layout.min.js" type="text/javascript"></script>
-        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
-        <script src="js/components/swiper.min.js" type="text/javascript"></script>
-        <script src="js/components/wow.min.js" type="text/javascript"></script>
-
-    </body>
-    <!-- END BODY -->
 </html>
