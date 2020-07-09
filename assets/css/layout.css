@@ -326,32 +326,32 @@ ul#nav li.current a { color: cadetblue; }
 }
 
 .java {
-  	width: 74%;
+  	width: 40%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
 .cpp {
-  	width: 55%;
+  	width: 32%;
   	-moz-animation: cpp 2s ease;
   	-webkit-animation: cpp 2s ease;
 }
 .cs {
-  	width: 52%;
+  	width: 30%;
   	-moz-animation: cs 2s ease;
   	-webkit-animation: cs 2s ease;
 }
 .c {
-  	width: 60%;
+  	width: 47%;
   	-moz-animation: c 2s ease;
   	-webkit-animation: c 2s ease;
 }
 .css {
-  	width: 90%;
+  	width: 63%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 83%;
+  	width: 73%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
@@ -361,7 +361,7 @@ ul#nav li.current a { color: cadetblue; }
   	-webkit-animation: sql 2s ease;
 }
 .sql {
-  	width: 94%;
+  	width: 84%;
   	-moz-animation: sql 2s ease;
   	-webkit-animation: sql 2s ease;
 }
