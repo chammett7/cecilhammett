@@ -205,6 +205,7 @@ ul#nav li.current a { color: cadetblue; }
    line-height: 30px;
    color: #7A7A7A;
 }
+
 #about .profile-pic {
    position: relative;
    width: 120px;
@@ -326,7 +327,7 @@ ul#nav li.current a { color: cadetblue; }
 }
 
 .java {
-  	width: 40%;
+  	width: 37%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
@@ -341,17 +342,17 @@ ul#nav li.current a { color: cadetblue; }
   	-webkit-animation: cs 2s ease;
 }
 .c {
-  	width: 47%;
+  	width: 42%;
   	-moz-animation: c 2s ease;
   	-webkit-animation: c 2s ease;
 }
 .css {
-  	width: 63%;
+  	width: 58%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 73%;
+  	width: 63%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
@@ -361,34 +362,34 @@ ul#nav li.current a { color: cadetblue; }
   	-webkit-animation: sql 2s ease;
 }
 .sql {
-  	width: 84%;
+  	width: 74%;
   	-moz-animation: sql 2s ease;
   	-webkit-animation: sql 2s ease;
 }
 
 @-moz-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 74%;  }
+  100% { width: 40%;  }
 }
 @-moz-keyframes cpp {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 32%;  }
 }
 @-moz-keyframes cs {
   0%   { width: 0px;  }
-  100% { width: 52%;  }
+  100% { width: 30%;  }
 }
 @-moz-keyframes c {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 47%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 63%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 83%;  }
+  100% { width: 73%;  }
 }
 @-moz-keyframes javaScript {
   0%   { width: 0px;  }
@@ -396,32 +397,32 @@ ul#nav li.current a { color: cadetblue; }
 }
 @-moz-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 94%;  }
+  100% { width: 84%;  }
 }
 
 @-webkit-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 74%;  }
+  100% { width: 40%;  }
 }
 @-webkit-keyframes cpp {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 32%;  }
 }
 @-webkit-keyframes cs {
   0%   { width: 0px;  }
-  100% { width: 52%;  }
+  100% { width: 30%;  }
 }
 @-webkit-keyframes c {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 47%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 63%;  }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 83%;  }
+  100% { width: 73%;  }
 }
 @-webkit-keyframes javaScript {
   0%   { width: 0px;  }
@@ -429,7 +430,7 @@ ul#nav li.current a { color: cadetblue; }
 }
 @-webkit-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 94%;  }
+  100% { width: 84%;  }
 }
 
 /* ------------------------------------------------------------------ */
