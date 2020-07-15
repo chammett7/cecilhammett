@@ -548,8 +548,26 @@ ul#nav li.current a { color: cadetblue; }
    color: #95A3A3;
 }
 
-/* Portfolio Content */
+/* Portfolio Content Projects*/
 #portfolio-wrapper .columns { margin-bottom: 36px; }
+.portfolio-item .item-wrap {
+   background: #fff;
+   overflow: hidden;
+   position: relative;
+
+   -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.portfolio-item .item-wrap a {
+   display: block;
+   cursor: pointer;
+}
+
+/* Portfolio Content Personal*/
+#portfolio-wrapper2 .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
