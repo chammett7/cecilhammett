@@ -370,68 +370,68 @@ ul#nav li.current a { color: cadetblue; }
 
 @-moz-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 37%;  }
 }
 @-moz-keyframes cpp {
   0%   { width: 0px;  }
-  100% { width: 32%;  }
+  100% { width: 22%;  }
 }
 @-moz-keyframes cs {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 20%;  }
 }
 @-moz-keyframes c {
   0%   { width: 0px;  }
-  100% { width: 47%;  }
+  100% { width: 37%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 63%;  }
+  100% { width: 43%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 73%;  }
+  100% { width: 53%;  }
 }
 @-moz-keyframes javaScript {
   0%   { width: 0px;  }
-  100% { width: 38%;  }
+  100% { width: 28%;  }
 }
 @-moz-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 84%;  }
+  100% { width: 74%;  }
 }
 
 @-webkit-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 37%;  }
 }
 @-webkit-keyframes cpp {
   0%   { width: 0px;  }
-  100% { width: 32%;  }
+  100% { width: 22%;  }
 }
 @-webkit-keyframes cs {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 20%;  }
 }
 @-webkit-keyframes c {
   0%   { width: 0px;  }
-  100% { width: 47%;  }
+  100% { width: 37%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 63%;  }
+  100% { width: 43%;  }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 73%;  }
+  100% { width: 53%;  }
 }
 @-webkit-keyframes javaScript {
   0%   { width: 0px;  }
-  100% { width: 38%;  }
+  100% { width: 28%;  }
 }
 @-webkit-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 84%;  }
+  100% { width: 47%;  }
 }
 
 /* ------------------------------------------------------------------ */
